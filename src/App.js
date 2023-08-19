@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <h1>TypeScript Todo List</h1>
+      <h1>React TypeScript Todo List</h1>
       <NewTodo addTodo={onAddTodo} />
       <Todos setTodos={setTodos} todos={todos} />
     </div>
